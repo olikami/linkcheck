@@ -2,4 +2,4 @@ FROM google/dart
 
 RUN pub global activate linkcheck
 
-ENTRYPOINT ["/bin/bash"]
+ENTRYPOINT ["/bin/bash", "-l", "-c"]
